@@ -75,4 +75,12 @@ public class MaquinaExpendedoraSimple {
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+    
+    /**
+     * Devuelve el  total de dinero acumulado en la máquina desde su puesta en
+     * funcionamiento.
+     */
+    public int getTotalDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
 }
