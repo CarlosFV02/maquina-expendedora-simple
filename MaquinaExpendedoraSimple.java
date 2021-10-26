@@ -90,4 +90,11 @@ public class MaquinaExpendedoraSimple {
     public int getTotalDineroAcumulado() {
         return totalDineroAcumulado;
     }
+    
+    /**
+     * Permite reducir el valor del precio en una cantidad.
+     */
+    public void reducirPrecioBillete(int reduccionPrecioBillete) {
+        precioBillete = precioBillete - reduccionPrecioBillete;
+    }
 }
